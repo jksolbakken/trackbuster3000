@@ -1,0 +1,8 @@
+{
+   "collectCoverage": true,
+   "moduleFileExtensions": [
+      "js",
+      "mjs"
+   ],
+   "testRegex": "((\\.|/*.)(spec|test))\\.js?$"
+}
