@@ -6,7 +6,7 @@ workflows:
     '.github/workflows/actions.lock': []
     '.github/workflows/codeql-analysis.yml':
         - 'actions/checkout@v2.8.0'
-        - 'github/codeql-action@v1'
+        - 'github/codeql-action@v2'
     '.github/workflows/main.yml':
         - 'actions/checkout@v7.0.1'
         - 'actions/setup-node@v7.1.0'
@@ -26,8 +26,8 @@ dependencies:
         commit: 'sha1-949feb2413d6458794dcd2491c4babbbce0c15c1'
         owner_id: 44036562
         repo_id: 189476904
-    'github/codeql-action@v1':
-        ref: 'v1'
-        commit: 'sha1-231aa2c8a89117b126725a0e11897209b7118144'
+    'github/codeql-action@v2':
+        ref: 'v2'
+        commit: 'sha1-b8d3b6e8af63cde30bdc382c0bc28114f4346c88'
         owner_id: 9919
         repo_id: 259445878
