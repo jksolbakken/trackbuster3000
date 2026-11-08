@@ -15,7 +15,7 @@ jobs:
           node-version: "17.x"
       - name: Cache node deps
         id: cache-node
-        uses: actions/cache@v2
+        uses: actions/cache@v6
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
