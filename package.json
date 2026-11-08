@@ -9,9 +9,6 @@
    "keywords": [],
    "author": "",
    "license": "ISC",
-   "devDependencies": {
-      "jest": "^30.5.2"
-   },
    "repository": {
       "type": "git",
       "url": "https://github.com/jksolbakken/trackbuster3000.git"
