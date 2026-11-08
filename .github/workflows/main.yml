@@ -24,6 +24,8 @@ jobs:
         with:
           node-version: "26.x"
       - uses: pnpm/setup@v3.1.2
+        with:
+          version: 12
       - name: Install deps
         run: pnpm i
       - name: Run tests
